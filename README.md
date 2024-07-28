@@ -51,7 +51,7 @@ restarting in TCP mode port: 4321
 ![image](https://github.com/user-attachments/assets/ace04985-1e3a-457f-87ff-3de3310c389c) </br>
 11. Buka kembali aplikasi "localtonet" maka akan muncul Tunnel yg telah kita buat tadi dengan status online </br>
 ![image](https://github.com/user-attachments/assets/49b51c89-7f7f-442a-b4cc-fa6315291506) </br>
-12. akses scrcpy via localto.net
+12. akses scrcpy via localto.net </br>
 example :
 ```
 host:port = id1.localto.net:1735
