@@ -61,7 +61,7 @@ scrcpy command :
 ```
 scrcpy --tcpip=id1.localto.net:1735
 ```
-    result :
+result :
 ```
 scrcpy 2.3.1 <https://github.com/Genymobile/scrcpy>
 INFO: Connecting to id1.localto.net:1735...
