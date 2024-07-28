@@ -15,8 +15,10 @@ access the scrcpy service using a public address
    command :
    ```adb devices```
    result :
-```List of devices attached
-**ID_DEVICE**        device```
+```
+List of devices attached
+**ID_DEVICE**        device
+```
 ![image](https://github.com/user-attachments/assets/aca3aa62-6cb0-4345-a9eb-8556643533b9)
 
 4. setelah device terdeteksi, lanjut untuk konfigurasi port tcpip adb
@@ -25,9 +27,9 @@ access the scrcpy service using a public address
    example :
    ```adb tcpip 4321```
    result :
-   ```
+```
 restarting in TCP mode port: 4321
-   ```
+```
 ![image](https://github.com/user-attachments/assets/15614a73-b4aa-4877-82c9-9094e044e5da)
 
 5. buka aplikasi localtonet
@@ -53,6 +55,20 @@ restarting in TCP mode port: 4321
 ![image](https://github.com/user-attachments/assets/aee302a1-de74-4358-8eb3-1440f9fe2c89)
     scrcpy command :
     ```scrcpy --tcpip=id1.localto.net:1735```
+    result :
+```
+scrcpy 2.3.1 <https://github.com/Genymobile/scrcpy>
+INFO: Connecting to id1.localto.net:1735...
+INFO: Connected to id1.localto.net:1735
+C:\Users\video\scrcpy-win64-v2.3.1\scrcpy-server: 1 file pushed, 0 skipped. 50.0 MB/s (66007 bytes in 0.001s)
+[server] INFO: Device: [Xiaomi] Redmi **DEVICE** (Android 14)
+[server] ERROR: Encoding error: java.lang.IllegalArgumentException:
+[server] INFO: Retrying with -m1920...
+[server] INFO: Retrying...
+INFO: Renderer: direct3d
+INFO: Texture: 1080x2400
+INFO: Texture: 864x1920
+```
 ![image](https://github.com/user-attachments/assets/2115b416-5abf-4fa4-af29-cf86a0ca21ef)
 
 # Penutup
