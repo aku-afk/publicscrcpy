@@ -15,10 +15,8 @@ access the scrcpy service using a public address
    command :
    ```adb devices```
    result :
-   ```
-List of devices attached
-**ID_DEVICE**        device
-   ```
+```List of devices attached
+**ID_DEVICE**        device```
 ![image](https://github.com/user-attachments/assets/aca3aa62-6cb0-4345-a9eb-8556643533b9)
 
 4. setelah device terdeteksi, lanjut untuk konfigurasi port tcpip adb
