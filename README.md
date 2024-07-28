@@ -10,26 +10,26 @@ access the scrcpy service using a public address
 1. download dan install semua tools
 2. koneksikan android dan PC menggunakan kabel USB
 3. scan perangkat android menggunkan adb </br>
-   command :
+command :
 ```
 adb devices
 ```
-   result :
+result :
 ```
 List of devices attached
 **ID_DEVICE**        device
 ```
 ![image](https://github.com/user-attachments/assets/aca3aa62-6cb0-4345-a9eb-8556643533b9) </br>
 4. setelah device terdeteksi, lanjut untuk konfigurasi port tcpip adb </br>
-   command :
+command :
 ```
 adb tcpip <custom port>
 ```
-   example :
+example :
 ```
 adb tcpip 4321
 ```
-   result :
+result :
 ```
 restarting in TCP mode port: 4321
 ```
@@ -52,12 +52,12 @@ restarting in TCP mode port: 4321
 11. Buka kembali aplikasi "localtonet" maka akan muncul Tunnel yg telah kita buat tadi dengan status online </br>
 ![image](https://github.com/user-attachments/assets/49b51c89-7f7f-442a-b4cc-fa6315291506) </br>
 12. akses scrcpy via localto.net
-    example :
+example :
 ```
 host:port = id1.localto.net:1735
 ```
-![image](https://github.com/user-attachments/assets/aee302a1-de74-4358-8eb3-1440f9fe2c89)
-    scrcpy command :
+![image](https://github.com/user-attachments/assets/aee302a1-de74-4358-8eb3-1440f9fe2c89) </br>
+scrcpy command :
 ```
 scrcpy --tcpip=id1.localto.net:1735
 ```
